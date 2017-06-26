@@ -42,7 +42,7 @@ Chciałem też udowodnić, że mniej więcej wiem na czym polega pisanie, dziedz
 <b>Logbook:</b><br>
 Wyświetla się OpenFileDialog do znalezienia pliku XML logbooka z nurkowaniami. Jeśli zostanie wybrany, w otwierającym się oknie
 zawierającym Textblock, pojawi się odpowiednio wyedytowana zawartość pliku XML. Wyposażyłem okienko w poziome i pionowe Scrollbary (za pomocą Scrollviewer), żeby było czytelnie. Jeśli użytkownik nie wybierze pliku XML to pojawi się MessageBox z informacją, że nie
-wybrano pliku. 
+wybrano pliku.<br>
 <b>Calculator:</b><br>
 Calculator to okno prostego kalkulatora do konwertowania metrów do stóp, celsjuszy do fahrenheitów i na odwrót.
 Ponadto policzyć można ciśnienie parcjalne tlenu w mieszance oddechowej (Calculate PO2), a także dostać radę, czy przy danym ciśnieniu parcjalnym można nurkować. Wykorzystałem tu delegaty, żeby było bardziej czytelnie w kodzie. Deleguję metody klasy
