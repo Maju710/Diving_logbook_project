@@ -49,7 +49,8 @@ Ponadto policzyć można ciśnienie parcjalne tlenu w mieszance oddechowej (Calc
 toolbox, która również będzie jeszcze przeze mnie rozwijana w przyszłości. Delegowane metody zostały również wyposażone w testy  try/catch.<br><br>
 
 <b>Podsumowując</b>, użyłem technologii WPF, w tym: switch, if, tworzenie klas, instancji klas, System.Windows.Forms (OpenFileDialog), jeden enum (System.Windows.Forms.DialogResult.OK/Cancel), StackPanels, Buttons, Combobox, Checkbox, Textboxes, Textblocks, testy Try/Catch, Int.TryParse, MessageBoxes, XML, XMLtextwriter, XMLdocument, delegate. <br>
-Chciałem dodać jakieś kolekcje, ale nie widziałem ostatecznie potrzeby, więc na siłę nie wpychałem. <br><br>
+Chciałem dodać jakieś kolekcje, ale nie widziałem ostatecznie potrzeby, więc na siłę nie wpychałem. <br>
+<br>Wszystko jest w master branchu w zipie. <br><br>
 Pozdrawiam, <br>
 Janek Majcher
 
