@@ -48,9 +48,9 @@ Calculator to okno prostego kalkulatora do konwertowania metrów do stóp, celsj
 Ponadto policzyć można ciśnienie parcjalne tlenu w mieszance oddechowej (Calculate PO2), a także dostać radę, czy przy danym ciśnieniu parcjalnym można nurkować. Wykorzystałem tu delegaty, żeby było bardziej czytelnie w kodzie. Deleguję metody klasy
 toolbox, która również będzie jeszcze przeze mnie rozwijana w przyszłości. Delegowane metody zostały również wyposażone w testy  try/catch.<br><br>
 
-<b>Podsumowując</b>, uzyłem technologii WPF, w tym: switch, if, tworzenie klas, instancji klas, System.Windows.Forms (OpenFileDialog), jeden enum (System.Windows.Forms.DialogResult.OK/Cancel), StackPanels, Buttons, Combobox, Checkbox, Textboxes, Textblocks, testy Try/Catch, Int.TryParse, MessageBoxes, XML, XMLtextwriter, XMLdocument, delegate. <br>
+<b>Podsumowując</b>, użyłem technologii WPF, w tym: switch, if, tworzenie klas, instancji klas, System.Windows.Forms (OpenFileDialog), jeden enum (System.Windows.Forms.DialogResult.OK/Cancel), StackPanels, Buttons, Combobox, Checkbox, Textboxes, Textblocks, testy Try/Catch, Int.TryParse, MessageBoxes, XML, XMLtextwriter, XMLdocument, delegate. <br>
 Chciałem dodać jakieś kolekcje, ale nie widziałem ostatecznie potrzeby, więc na siłę nie wpychałem. <br><br>
-Pozdrawiam, 
+Pozdrawiam, <br>
 Janek Majcher
 
 
