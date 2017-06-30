@@ -11,7 +11,7 @@ Użyta technologia: <b>WPF</b><br><br>
 
 Aplikacja składa się z kilku okienek.<br>
 Okienka projektowałem manualnie, tylko pisząc kod, a nie nanosząc kontrolki myszką - drag&drop. 
-Czytałem, że w takim wypadku jest większa kontrola nad wyglądem i zgadzam się z tym.
+Youtube mi powiedział, że w takim wypadku jest większa kontrola nad wyglądem i zgadzam się z tym.
 Okienka projektowałem na StackPanels - które ustawiają wierszowo (z góry na dół) kolejne elementy.<br><br>
 
 Poniżej opis kolejnych okienek wraz z funkcjonalnościami i click eventami zawartymi w kodzie:<br>
@@ -32,12 +32,12 @@ Wewnątrz pliku XML tworzone są nodes - główny  Diving_logbook, podrzędny Di
 <b>Load directory:</b><br>
 To jest najważniejsze okno aplikacji. Właściwie na początku chciałem, żeby było jedyne, ale pomysł nieco ewoluował, bo się wkręciłem. 
 Zestaw Textboxes i TextBlocks z różnymi właściwościami nurkowania, które chcemy dodać. Kod wyposażony w testy Int.TryParse. 
-Dodatkowo użyłem Checkboxes to tworzenia listy ekwipunku zabranego na nurkowanie - tworzony jest z nich string. 
+Dodatkowo użyłem Checkboxes do tworzenia listy ekwipunku zabranego na nurkowanie - tworzony jest z nich string (w metodzie checkbox_checked, która odwołuje się do wszystkich checkoboxów - niby proste, a trochę nad tym posiedziałem). 
 Wykorzystałem również jeden combobox pod Dive Type. 
 Po uzupełnieniu wszystkich właściwości, całość jest zapisywana do wcześniej utworzonego pliku XML wskazanego ścieżką. 
 Właściwości trafiają pod node "Property" pliku XML. Całe nurkowanie trafie pod node "Dive".
-Zgodnie z pierwotnym założeniem aplikacji (ze wstępnego opisu), tworzony jest też obiekt nurkowania. 
-Utworzyłem kilka klas różnych typów nurkowań, dziedziczących po klasie abstrakcyjnej Dive.
+Zgodnie z pierwotnym założeniem aplikacji (ze wstępnego opisu), tworzona jest też instancja różnych klas nurkowań. 
+Utworzyłem kilka klas różnych typów nurkowań (Recreational, Technical, Work, Course), dziedziczących po klasie abstrakcyjnej Dive.
 Rozpisanie klas nie ma jednak póki co praktycznego zastosowania - może wykorzystam je w dalszym rozwoju aplikacji. 
 Chciałem też udowodnić, że mniej więcej wiem na czym polega pisanie, dziedziczenie klas i tworzenie ich instancji.
 
